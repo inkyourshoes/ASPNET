@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Data;
+using Dapper;
+
+namespace Testing.Models
+{
+    public interface IProductRepository
+    {
+        public IEnumerable<Product> GetAllProducts();
+    }
+}
+
